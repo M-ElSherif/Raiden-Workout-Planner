@@ -1,0 +1,12 @@
+C:\Devwork\repos\Core\bin\Debug\net6.0\Raiden.Core.deps.json
+C:\Devwork\repos\Core\bin\Debug\net6.0\Raiden.Core.dll
+C:\Devwork\repos\Core\bin\Debug\net6.0\Raiden.Core.pdb
+C:\Devwork\repos\Core\obj\Debug\net6.0\Raiden.Core.csproj.AssemblyReference.cache
+C:\Devwork\repos\Core\obj\Debug\net6.0\Raiden.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Devwork\repos\Core\obj\Debug\net6.0\Raiden.Core.AssemblyInfoInputs.cache
+C:\Devwork\repos\Core\obj\Debug\net6.0\Raiden.Core.AssemblyInfo.cs
+C:\Devwork\repos\Core\obj\Debug\net6.0\Raiden.Core.csproj.CoreCompileInputs.cache
+C:\Devwork\repos\Core\obj\Debug\net6.0\Raiden.Core.dll
+C:\Devwork\repos\Core\obj\Debug\net6.0\refint\Raiden.Core.dll
+C:\Devwork\repos\Core\obj\Debug\net6.0\Raiden.Core.pdb
+C:\Devwork\repos\Core\obj\Debug\net6.0\ref\Raiden.Core.dll
