@@ -7,16 +7,14 @@ using System.Threading.Tasks;
 
 namespace Raiden.Core.Managers
 {
-    public interface IBodyGroupManager
+    public interface ISessionManager
     {
-        void AddExercise(IExercise exercise);
+        void AddExercise(Exercise exercise);
 
-        void RemoveExercise(IExercise exercise);
+        void RemoveExercise(Exercise exercise);
 
         void ClearExercises();
 
-        void AddExercises(IEnumerable<IExercise> exercises);
-
-        bool ValidateExercise(IExercise exercise);
+        void AddExercises(IEnumerable<Exercise> exercises);
     }
 }

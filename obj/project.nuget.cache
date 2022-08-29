@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b5ltbolbTp5bpd1AJoepnIJxM/ysmBNu5hyrzWM0b5zQq8U+SNdxYNldLTCw1+qagvkJlHB3CdOTPq0akSNJzQ==",
+  "dgSpecHash": "lkaWx5lkw8GYnNz3+LVEwh0KzVeoNVvihC2EqaFhvaQRAs0UaN4tvhoVp4NRa09ZFZjQHo6hCyNYHeJl02Jp2w==",
   "success": true,
-  "projectFilePath": "C:\\Devwork\\repos\\Core\\Raiden.Core.csproj",
+  "projectFilePath": "C:\\Devwork\\repos\\Raiden.Core\\Raiden.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thesh\\.nuget\\packages\\csharpguidelinesanalyzer\\3.8.2\\csharpguidelinesanalyzer.3.8.2.nupkg.sha512",
     "C:\\Users\\thesh\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"

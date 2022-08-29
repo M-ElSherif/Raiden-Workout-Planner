@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Raiden.Core.Entities
 {
-    public class Exercise : IExercise
+    public class Exercise
     {
         public string Name { get; set; }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Devwork\\repos\\Core\\Raiden.Core.csproj": {}
+    "C:\\Devwork\\repos\\Raiden.Core\\Raiden.Core.csproj": {}
   },
   "projects": {
-    "C:\\Devwork\\repos\\Core\\Raiden.Core.csproj": {
+    "C:\\Devwork\\repos\\Raiden.Core\\Raiden.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Devwork\\repos\\Core\\Raiden.Core.csproj",
+        "projectUniqueName": "C:\\Devwork\\repos\\Raiden.Core\\Raiden.Core.csproj",
         "projectName": "Raiden.Core",
-        "projectPath": "C:\\Devwork\\repos\\Core\\Raiden.Core.csproj",
+        "projectPath": "C:\\Devwork\\repos\\Raiden.Core\\Raiden.Core.csproj",
         "packagesPath": "C:\\Users\\thesh\\.nuget\\packages\\",
-        "outputPath": "C:\\Devwork\\repos\\Core\\obj\\",
+        "outputPath": "C:\\Devwork\\repos\\Raiden.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

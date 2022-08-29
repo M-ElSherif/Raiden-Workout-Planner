@@ -1,51 +1,82 @@
-﻿using Raiden.Core.Entities.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using Raiden.Core.Entities.Enums;
+//using Raiden.Core.Managers;
 
-namespace Raiden.Core.Entities
-{
-    internal class BackBodyGroup : IBodyGroup
-    {
-        public ExerciseCategory Category => ExerciseCategory.Back;
+//namespace Raiden.Core.Entities
+//{
+//    internal class BodyGroup : ISession, ISessionManager
+//    {
+//        public ExerciseCategory Category { get; }
 
-        private readonly IEnumerable<IExercise> _exercises;
+//        private readonly IList<Exercise> _exercises;
 
-        public BackBodyGroup(IEnumerable<Exercise> exercises)
-        {
-            if (exercises == null)
-            {
-                throw new ArgumentNullException(nameof(exercises));
-            }
+//        public BodyGroup(
+//            IList<Exercise> exercises,
+//            ExerciseCategory category)
+//        {
+//            if (exercises == null)
+//            {
+//                throw new ArgumentNullException(nameof(exercises));
+//            }
 
-            if (ValidateExercises(exercises))
-            {
-                _exercises = exercises;
-            }
-            else
-            {
-                throw new InvalidOperationException($"Invalid exercise category provided within list of exercises {nameof(exercises)}");
-            }
-        }
+//            Category = category;
 
-        public IEnumerable<IExercise> GetExercises()
-        {
-            IEnumerable<IExercise> exercises = new List<IExercise>(_exercises);
+//            if (ValidateExercisesCategory(exercises))
+//            {
+//                _exercises = exercises;
+//            }
+//            else
+//            {
+//                throw new InvalidOperationException($"Invalid exercise category provided within list of exercises {nameof(exercises)}");
+//            }
+//        }
 
-            return exercises;
-        }
+//        public IEnumerable<Exercise> GetExercises()
+//        {
+//            IEnumerable<Exercise> exercises = new List<Exercise>(_exercises);
 
-        public bool ValidateExercisesCategory(IEnumerable<IExercise> exercises)
-        {
-            return exercises.All(e =>
-            e is Exercise exercise && exercise.ExCategory == Category);
-        }
+//            return exercises;
+//        }
 
-        public bool ValidateExercises(IEnumerable<IExercise> exercises)
-        {
-            throw new NotImplementedException();
-        }
-    }
-}
+
+//        public void AddExercise(Exercise exercise)
+//        {
+//            if (ValidateExercise(exercise))
+//            {
+//                _exercises.Append(exercise);
+//            }
+//        }
+
+//        public void RemoveExercise(Exercise exercise)
+//        {
+//            if (ValidateExercise(exercise))
+//            {
+//                _exercises.Remove(exercise);
+//            }
+//        }
+
+//        public void ClearExercises()
+//        {
+//            _exercises.Clear();
+//        }
+
+//        public void AddExercises(IEnumerable<Exercise> exercises)
+//        {
+//            if (ValidateExercisesCategory(exercises))
+//            {
+//                List<Exercise> tempExercises = (List<Exercise>)_exercises;
+//                tempExercises.AddRange(exercises);
+//            }
+//        }
+
+//        public bool ValidateExercisesCategory(IEnumerable<Exercise> exercises)
+//        {
+//            return exercises.All(e =>
+//            e is Exercise exercise && exercise.ExCategory == Category);
+//        }
+
+//        public bool ValidateExercise(Exercise exercise)
+//        {
+//            return exercise.ExCategory == Category;
+//        }
+//    }
+//}
