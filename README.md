@@ -7,6 +7,13 @@
 - TransformationExtension, takes in a csv file from the fitnotes app and performs various calculations such as volume calculations
 - ProgramSchedulerExtension, this will develop a program based on user provided input
 
+## Aug 30, 2022
+
+- Session approach may be too restrictive. Conclusion:
+	- Don't get rid of session since their might be an application for it when observing a logged workout session
+	- Instead, we can explore a "session" as a grouping of log entries. This makes more logical sense since I don't particularly want
+	  to build a session as a grouping of exercises
+
 ## Aug 29, 2022
 
 - Next Step:
