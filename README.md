@@ -14,6 +14,11 @@
 	- Instead, we can explore a "session" as a grouping of log entries. This makes more logical sense since I don't particularly want
 	  to build a session as a grouping of exercises
 
+- Time wasted overthinking structure for future extensions. Break it down into the following for now (Single Responsibility Priniciple)
+	- `Provider` will handle obtaining "data" from whatever provided source object (eg. string file path, api call string)
+	- `Converter` will handle conversion between obtained data into an `Entry` object - this is the single source of truth
+	- `Processor` brings the `Provider` and `Converter` together and adds any extra functionality that might be necessary to further process the data
+
 ## Aug 29, 2022
 
 - Next Step:
